@@ -40,7 +40,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-  - match: Host(`whoami.rahulsharma.page`)
+  - match: Host(`whoami.example.page`)
     kind: Rule
     services:
     - name: whoami
