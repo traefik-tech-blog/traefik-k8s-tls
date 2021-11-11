@@ -1,6 +1,0 @@
-additionalArguments:
-  - "--log.level=DEBUG"
-  - "--certificatesresolvers.le.acme.email=someone@example.page"
-  - "--certificatesresolvers.le.acme.storage=/data/acme.json"
-  - "--certificatesresolvers.le.acme.tlschallenge=true"
-  - "--certificatesresolvers.le.acme.caServer=https://acme-staging-v02.api.letsencrypt.org/directory"
